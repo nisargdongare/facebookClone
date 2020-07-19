@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body{
+      background-color: rgb(230, 230, 230);
+  }
+
+.mainNav{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    font: bold 11px/16px arial,helvetica,sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+/* Left block starts */
+.leftBlock{
+    background: none repeat scroll 0 0 #ffffff;
+    border-bottom: 1px solid #FFFFFF;
+    float: left;
+    font: bold 11px/16px arial,helvetica,sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    width: 30%;
+}
+
+.leftBlockList{
+    display: inline-block;
+    justify-items: center;
+}
+
+.iconFacebook {
+    color: #487ad6;
+    margin: 10px; 
+}
+ 
+.searchBox{
+    display: inline-block;
+    border: 1px solid rgb(235, 235, 235);
+    background-color:rgb(235, 235, 235);
+    border-radius: 20px ;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.searchIcon {
+    color: #5a5a5a;
+    margin-left: 20px;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid rgb(235, 235, 235);;
+    background-color:rgb(235, 235, 235);;
+    box-sizing: border-box;
+}
+/* Left block ends */
+/* center block starts */
+.centerBlock{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    font: bold 11px/16px arial,helvetica,sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    
+}
+
+.centerIcons{
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+}
+
+.centerIcons:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+/* center block ends */
+/* right block starts */
+.rightBlock{
+    width: 30%;
+    justify-content: center;
+    float: right;
+}
+.rightBlockCircle {
+    padding: 12px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 100%;
+    display: flex;
+    float: right;
+    margin-right: 5% ;
+}
+.rightIcon{
+    
+    color: rgb(0, 0, 0);
+}
+.rightBlockCircle:hover,.rightIcon:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.AccountCircle{
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    width: 35%;
+    float: right;
+    margin-right: 2%;
+}
+
+.imageCircle {
+    padding: 25px;
+    background-color: rgb(184, 33, 33);
+    border-radius: 100%;
+    margin-right: 5% ;
+}
+
+.txt{
+    display: flex;
+    margin-top: 15px;
+}
